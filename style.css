@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    background:#062863;
+}
+
+.main-container{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 100%;
+        padding-bottom: 3rem;
+        background-image: url(piggyo.jpg), url(piggyc.jpg), url(piggyj.jpg), url(piggyl.jpg);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: left -1% top -13%, right -9% top -1%, left -6% bottom -9%, right -6% bottom -4%;
+        background-size: 15%, 15%, 15%, 15%;
+        background-color: #062863;
+        background-attachment: fixed;
+}
+
+.image-container{
+    display: block;
+    background-color: #062863;
+    text-align: center;
+    padding-bottom: 40px; 
+}
+
+img{
+    margin-top:48px;
+   text-align: center;
+   height: 40px; 
+}
+
+.form-box{
+    display: block;
+    background-color: white;
+    width:88%;
+    max-width: 32rem;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    }
+
+.form-header{
+    display: block;
+     }
+
+.form-header h1{
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1.45em;
+    font-weight:700;
+    color: #083e9e;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form-header p{
+    color: #4a5568;
+    font-family:"Karla", sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 0.9rem;
+}
+
+.form-content{
+padding-top: 30px; 
+padding-left: 40px;
+border: none;
+}
+
+.form-content label{
+    line-height: 2.13rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.70rem;
+    font-weight: bold;
+    color:#4a5568;
+   }
+
+.form-content input{
+    background:#edf2f7;
+    padding: 18px 15px;
+    width:84%;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-content input[placeholder]{
+    font-size: 1.0rem;
+    color:black;
+    outline: none;
+}
+
+.form-content input::placeholder {
+    color: rgb(167, 170, 172);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+.form-content select{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    background:#edf2f7;
+    padding: 15px 10px;
+    width:91%;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-content select option{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+
+}
+
+
+.button .submit-btn{
+    width: 91%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    font-size: 1.0rem;
+    background: #083e9e;
+    cursor: pointer;
+    text-align: center;
+    height: 60px;
+    color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.button{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    
+}
+
+.base{
+    text-align:center;
+    padding-top: 20px;
+    
+}
+
+.base p{
+    padding-top: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    font-weight:450;
+   }
+
+.base a{
+    text-decoration: none;
+}
+
+.base a:hover p{
+    color:lightgray;
+    
+}
+ 
+   
+
